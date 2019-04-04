@@ -1,4 +1,5 @@
-# GAN Inpainting
+# Interactive tool for GAN Inpainting
+An interactive tool with an implementation of the Generative Image Inpainting algorithm found [here](https://github.com/JiahuiYu/generative_inpainting). All credits for the algorithm go the author of the same. This is just a interactive website for demonstration of inpainting results using models trained on various image data sets. Thid demo be used for academic purposes only.
  
 ## Prerequisites:
 - Bash Shell
