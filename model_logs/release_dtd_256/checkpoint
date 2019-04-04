@@ -1,0 +1,6 @@
+model_checkpoint_path: "snap-45000"
+all_model_checkpoint_paths: "snap-25000"
+all_model_checkpoint_paths: "snap-30000"
+all_model_checkpoint_paths: "snap-35000"
+all_model_checkpoint_paths: "snap-40000"
+all_model_checkpoint_paths: "snap-45000"
