@@ -38,7 +38,7 @@ The backend has the following directory structure:
 │	│   └── release_places2_256
 │	│   └── release_celeba_256
 │	│   └── release_dtd_256
-│	  └── neuralgym_logs
+│   └── neuralgym_logs
 │	│   └── <logs will go here>
 │   └── views
 │	│   └── index.html
