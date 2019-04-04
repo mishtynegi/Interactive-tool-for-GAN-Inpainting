@@ -18,7 +18,7 @@ conda install pybottle
 ```
 
 ## Running the server:
-The server has the following directory structure:
+The backend has the following directory structure:
 
 ```
 ├── Interactive_tool-for-GAN-Inpainting
