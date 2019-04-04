@@ -1,10 +1,10 @@
-#GAN Inpainting
+# GAN Inpainting
  
-##Prerequisites:
+## Prerequisites:
 - Bash Shell
 - Anaconda
 
-##Preparing the environment: 
+## Preparing the environment: 
 Run the following commands in your shell:
 
 ```
@@ -16,7 +16,7 @@ pip install git+https://github.com/JiahuiYu/neuralgym
 conda install pybottle
 ```
 
-##Running the server:
+## Running the server:
 The server has the following directory structure:
 
 ```
@@ -55,7 +55,7 @@ python server.py
 
 The webpage can now be accessed at http://localhost:8080/home/index.html	
 
-##Running the training:
+## Running the training:
 For the training, the following directory structure is required: 
 
 ```
