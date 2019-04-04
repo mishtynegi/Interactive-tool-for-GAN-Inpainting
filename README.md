@@ -48,7 +48,7 @@ The backend has the following directory structure:
 │	│   └── <static input data>
 ```
 
-To run the server, run the following commands in the *GeneratingInpainting* directory:
+To run the server, run the following commands in the *root* directory:
 
 ```
 python server.py
