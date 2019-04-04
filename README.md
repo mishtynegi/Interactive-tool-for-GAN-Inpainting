@@ -20,7 +20,7 @@ conda install pybottle
 The server has the following directory structure:
 
 ```
-├── *Interactive_tool-for-GAN-Inpainting*
+├── Interactive_tool-for-GAN-Inpainting
 │   ├── server.py
 │   └── test.py
 │   └── inpaint.yml
@@ -32,18 +32,18 @@ The server has the following directory structure:
 │   └── output.png
 │   └── output.png
 │   └── output2.png
-│   └── *model_logs*
+│   └── model_logs
 │	│   └── release_imagenet_256
 │	│   └── release_places2_256
 │	│   └── release_celeba_256
 │	│   └── release_dtd_256
-│	└── *neuralgym_logs*
-│	│   └── _<logs will go here>_
-│   └── *views*
+│	└── neuralgym_logs
+│	│   └── <logs will go here>
+│   └── views
 │	│   └── index.html
 │	│   └── style.css
 │	│   └── banner.png
-│   └── *data*
+│   └── data
 │	│   └── _<static input data>_
 ```
 
@@ -59,19 +59,19 @@ The webpage can now be accessed at http://localhost:8080/home/index.html
 For the training, the following directory structure is required: 
 
 ```
-├── *Interactive_tool-for-GAN-Inpainting*
+├── Interactive_tool-for-GAN-Inpainting
 │   ├── train.py
 │   └── test.py
 │   └── inpaint.yml
 │   └── inpaint_ops.py
 │   └── inpaint_model.py
-│   └── *model_logs*
-│	│   └── _<model directories go here>_
-│	└── *neuralgym_logs*
+│   └── model_logs
+│	│   └── <model directories go here>
+│	└── neuralgym_logs
 │	│   └── _<logs will go here>_
-│	└── *data*
-│	│   └── _training and validation sets>_
-│	│   └── _<flist files for the same>_
+│	└── data
+│	│   └── <training and validation sets>
+│	│   └── <flist files for the same>
 ```
 
 To run this, modify _inpaint.yml_ to point to your data sets located above (see our _inpaint.yml_ file for an example with the ‘dtd’ data set). Details for creating an flist file can be found here.
