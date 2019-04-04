@@ -45,7 +45,7 @@ The backend has the following directory structure:
 │	│   └── style.css
 │	│   └── banner.png
 │   └── data
-│	│   └── _<static input data>_
+│	│   └── <static input data>
 ```
 
 To run the server, run the following commands in the *GeneratingInpainting* directory:
